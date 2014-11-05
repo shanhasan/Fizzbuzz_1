@@ -11,6 +11,10 @@ describe "fizzbuzz" do
       expect(is_divisible_by_five?(5)).to be true
     end
 
+    it "will be divisible by fifteen" do
+      expect(is_divisible_by_fifteen?(15)).to be true
+    end
+
   end
 
   context "knows when a number is not divisible by three" do
