@@ -32,5 +32,15 @@ describe "fizzbuzz" do
     end
 
   end
-   
+
+  context "playing the game" do
+
+    it "will return fizz" do
+      expect(fizzbuzz?(3)).to eq "fizz"
+
+    end
+
+
+  end
+
 end
